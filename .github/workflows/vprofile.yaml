@@ -2,7 +2,7 @@ name: vprofile actions
 on: workflow_dispatch
 env:
   AWS_REGION: us-east-1
-  ECR_REPOSITORY: vprofileapp
+  ECR_REPOSITORY: saddam-managed
   EKS_CLUSTER: saddam-managed
 
 jobs:
